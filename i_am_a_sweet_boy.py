@@ -8,7 +8,7 @@ def task_1():
     while True:
         print("1 - с готовыми функциями")
         print("2 - без готовых функций")
-        choice = input("Выберите способ: ").strip()
+        choice = input("Выберите способ: ")
 
         if choice == '1':
             count = len(s.split())
@@ -41,7 +41,7 @@ def task_2():
     while True:
         print("1 - с готовыми функциями")
         print("2 - без готовых функций")
-        choice = input("Выберите способ: ").strip()
+        choice = input("Выберите способ: ")
 
         if choice == "1":
             result = ""
@@ -95,7 +95,7 @@ def task_3():
 
     print("1 — с готовыми функциями")
     print("2 — без готовых функций")
-    choice = input("Выберите способ: ").strip()
+    choice = input("Выберите способ: ")
 
     a = [random.randint(-20, 20) for _ in range(n)]
     print("Исходный список: ", a)
